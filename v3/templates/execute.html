@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Hackers@UPC - Flask-a-judge</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h2>Hackers@UPC - Flask-a-judge</h2>
+  <hr />
+  <p>Well done! Your code had no problem compiling! Check the output to see if there was any bug!</p>
+  <div class="form-group">
+    <label for="output">Output:</label>
+    <textarea style="font-family: Liberation Mono" readonly class="form-control" rows="15" name="output" id="output">{{ output }}</textarea>
+  </div>
+  <a href="/" class="btn btn-primary btn-block active" role="button" aria-pressed="true">Back to the lab</a>
+</div>
+
+</body>
+</html>
+
